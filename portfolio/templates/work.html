@@ -1,0 +1,22 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/styles.css' %}">
+
+
+<nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About Me</a></li>
+      <li><a href="/work">My Work</a></li>
+      <li><a href="/contact">Contact Me</a></li>
+    </ul>
+  </nav>
+  
+  <h1>My Work</h1>
+  <p>I have worked on a few projects include projects at worky company for a few years</p>
+  
+  {% load static %}
+  
+  <div class="project-image">
+      <img src="{% static 'portfolio/images/project.jpg' %}" alt="Description of Project">
+  </div>
+  
